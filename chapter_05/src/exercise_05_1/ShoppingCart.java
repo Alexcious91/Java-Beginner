@@ -15,7 +15,7 @@ public class ShoppingCart {
 
         total = (quantity * price) * tax;
 
-        boolean outOfStock = true;
+        boolean outOfStock = false;
 
         if (quantity > 1) {
             message = message + "s";
