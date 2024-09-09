@@ -1,8 +1,8 @@
 package exercise_06_2;
 
 public class Item {
-    int id;
-    String description;
-    int quantity;
-    double price;
+    public int itemId;
+    public String description;
+    public int quantity;
+    public double price;
 }

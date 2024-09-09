@@ -8,6 +8,7 @@ public class ShoppingCart {
         item1.description = "HP Laptop";
         item2.description = "iPhone";
 
-        System.out.println("Description: " + item1.description);
+        System.out.println("Item 1 Description: " + item1.description);
+        System.out.println("Item 2 Description: " + item2.description);
     }
 }
