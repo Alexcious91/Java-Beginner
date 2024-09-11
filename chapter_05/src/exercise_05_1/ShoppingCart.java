@@ -8,7 +8,7 @@ public class ShoppingCart {
         double price = 10000.00;
         double tax = 1.04;
 
-        int quantity = 6;
+        int quantity = 1;
         double total;
 
         message = customerName + " wants to buy a HP " + itemDescription;
