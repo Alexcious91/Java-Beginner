@@ -2,7 +2,7 @@ package exercise_10_1;
 
 public class Conditionals {
     public static void main(String[] args) {
-        int x = 4, y = 9;
+        int x = 10, y = 9;
 
         int result = ((x / y) < 3) ? (x + y) : (x * y);
 

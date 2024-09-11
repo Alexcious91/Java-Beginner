@@ -1,10 +1,11 @@
 package exercise_09_2;
 
+import java.sql.SQLOutput;
+
 public class Customer {
     private String name;
     private String ssn;
 
-    // Encapsulate this class.  Make ssn read only.
     public String getName() {
         return name;
     }
@@ -12,7 +13,7 @@ public class Customer {
     public void setName(String name) {
         this.name = name;
     }
-
+    // Encapsulate this class.  Make ssn read only.
     public String getSsn() {
         return ssn;
     }
@@ -30,5 +31,7 @@ public class Customer {
     public static void main(String[] args) {
         Customer customer = new Customer();
         Customer newCustomer = new Customer("Alex November", "123456");
+
+        System.out.println(newCustomer.name);
     }
 }
