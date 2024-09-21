@@ -1,4 +1,4 @@
-package Book_1.Chapter_1;
+package chapter_01_03;
 
 public class HelloApp3
 {
